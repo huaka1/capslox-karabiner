@@ -1,6 +1,6 @@
 # capslox-karabiner二改
 
-在https://github.com/yqchilde/capslox-karabiner的基础上，删去部分功能，增加快捷键输入手机号、QQ、身份证功能
+在https://github.com/yqchilde/capslox-karabiner 的基础上，增加快捷键输入手机号、QQ、身份证功能
 
 ## 安装
 
@@ -104,7 +104,35 @@ README下文将用以下符号来表示按键位及映射键位，其代表释�
 | `⇪`  `2` | 156xxxxxx               | QQ号，需修改配置 |
 | `⇪`  `3` | 01xxxxxxxxxxxxxxxx | 身份证号，需修改配置 |
 
+### Hyper => 文本删除
 
+| 按键        | 映射为                                    | 说明             |
+| ----------- | ----------------------------------------- | ---------------- |
+| `⇪` `W`     | `delete_or_backspace`                     | 向左删除         |
+| `⇪` `R`     | `delete_forward`                          | 向右删除         |
+| `⇪` `⌘` `W` | `option` + `delete_or_backspace`          | 向左删除一个单词 |
+| `⇪` `⌘` `R` | `option` + `delete_forward`               | 向右删除一个单词 |
+| `⇪` `[`     | `shift` + `home` && `delete_or_backspace` | 删除至行首       |
+| `⇪` `/`     | `shift` + `end` && `delete_or_backspace`  | 删除至行尾       |
+| `⇪` `⌫`     | `command` + `delete_or_backspace`         | 删除当前行       |
+| `⇪` `⌘` `⌫` | `command` + `A` && `delete_or_backspace`  | 删除全部内容     |
+
+### Hyper => F1~F12
+
+| 按键    | 映射为 | 说明    |
+| ------- | ------ | ------- |
+| `⇪` `1` | `f1`   | f1按键  |
+| `⇪` `2` | `f2`   | f2按键  |
+| `⇪` `3` | `f3`   | f3按键  |
+| `⇪` `4` | `f4`   | f4按键  |
+| `⇪` `5` | `f5`   | f5按键  |
+| `⇪` `6` | `f6`   | f6按键  |
+| `⇪` `7` | `f7`   | f7按键  |
+| `⇪` `8` | `f8`   | f8按键  |
+| `⇪` `9` | `f9`   | f9按键  |
+| `⇪` `0` | `f10`  | f10按键 |
+| `⇪` `-` | `f11`  | f11按键 |
+| `⇪` `=` | `f12`  | f12按键 |
 
 ## 参考项目
 
