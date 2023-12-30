@@ -13,13 +13,9 @@
 3. 跳转至Karabiner-Elements并导入
 4. 在软件菜单项 `Complex modifications` 中点击左下角 `Add rule` 启用该项目全部功能
 
-![img](https://github.com/yqchilde/capslox-karabiner/blob/main/screenshots/img1.jpg "效果图1")
+![image-20231230下午21923965](https://huaka1-tuchuang.oss-cn-hangzhou.aliyuncs.com/202312301419036.png)
 
-**注意：**
 
-如果要外接键盘，需要将command键位与option键位互换，如下：
-
-![img](https://github.com/yqchilde/capslox-karabiner/blob/main/screenshots/img2.jpg "效果图2")
 
 ## 认识键盘符号
 
@@ -87,37 +83,34 @@ README下文将用以下符号来表示按键位及映射键位，其代表释�
 | `⇪` `⌘` `I` | `shift` + `option` + `↑`                            | 选中的行向上移动 |
 | `⇪` `⌘` `K` | `shift` + `option` + `↓`                            | 选中的行向下移动 |
 
-### Hyper => 文本删除
+### Hyper => 数字输入
 
 | 按键          | 映射为                                     | 说明     |
 |-------------|-----------------------------------------| -------- |
-| `⇪` `W`     | `delete_or_backspace`                   | 向左删除 |
-| `⇪` `R`     | `delete_forward`                        | 向右删除 |
-| `⇪` `⌘` `W` | `option` + `delete_or_backspace`        | 向左删除一个单词 |
-| `⇪` `⌘` `R` | `option` + `delete_forward`             | 向右删除一个单词 |
-| `⇪` `[`     | `shift` + `home` && `delete_or_backspace` | 删除至行首 |
-| `⇪` `/`     | `shift` + `end` && `delete_or_backspace` | 删除至行尾 |
-| `⇪` `⌫`     | `command` + `delete_or_backspace`       | 删除当前行 |
-| `⇪` `⌘` `⌫` | `command` + `A` && `delete_or_backspace` | 删除全部内容 |
+| `⇪` `1`    | 136xxxxxxx | 手机号，需修改配置 |
+| `⇪`  `2` | 156xxxxxx               | QQ号，需修改配置 |
+| `⇪`  `3` | 01xxxxxxxxxxxxxxxx | 身份证号，需修改配置 |
 
-### Hyper => F1~F12
+修改配置文件：
 
-| 按键      | 映射为   | 说明    |
-|---------|-------|-------|
-| `⇪` `1` | `f1`  | f1按键  |
-| `⇪` `2` | `f2`  | f2按键  |
-| `⇪` `3` | `f3`  | f3按键  |
-| `⇪` `4` | `f4`  | f4按键  |
-| `⇪` `5` | `f5`  | f5按键  |
-| `⇪` `6` | `f6`  | f6按键  |
-| `⇪` `7` | `f7`  | f7按键  |
-| `⇪` `8` | `f8`  | f8按键  |
-| `⇪` `9` | `f9`  | f9按键  |
-| `⇪` `0` | `f10` | f10按键 |
-| `⇪` `-` | `f11` | f11按键 |
-| `⇪` `=` | `f12` | f12按键 |
+文件路径：~/.config/karabiner/assets/complex_modifications/
+
+ Finder下可使用快捷键⌘⇧+G 进入到目录
+
+
+
+找到1111行，自行修改后面的数字：
+
+
+
+![image-20231230下午22259687](https://huaka1-tuchuang.oss-cn-hangzhou.aliyuncs.com/202312301422720.png)
+
+
+
+
 
 ## 参考项目
 
 - [https://github.com/BryanHoo/Capslock-Plus](https://github.com/BryanHoo/Capslock-Plus)
 - [https://github.com/Vonng/Capslock](https://github.com/Vonng/Capslock)
+- https://github.com/yqchilde/capslox-karabiner
